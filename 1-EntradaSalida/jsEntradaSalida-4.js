@@ -5,5 +5,13 @@
 function mostrar()
 {
 
+	let nombre; //me reservo un espacio en memoria 
+
+	//la variable donde quiero guardar el dato
+
+	nombre= prompt ("ingrese su nombre");
+
+	document.getElementById("elNombre").value = nombre;
+
 }
 

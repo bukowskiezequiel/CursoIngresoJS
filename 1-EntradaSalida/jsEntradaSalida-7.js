@@ -6,13 +6,13 @@ function sumar()
 
 //declaro las funciones que voy a utilizar
 {
-    var num1;
-    var num2;
-    var resultado;
+    let num1;
+    let num2;
+    let resultado;  
 
     // Guardo en memoria los datos de las cajas de texto
     //previamente convierto a number el dato que viene en string
-    //levanto el dato, lo paso a parse int y directo a la variable
+    //levanto el dato, lo paso a parse int y directo a la variable.
     num1 = parseInt(document.getElementById("numeroUno").value);
     num2 = parseInt(document.getElementById("numeroDos").value);
 
@@ -23,9 +23,9 @@ function sumar()
 }
 
 function restar() {
-    var num1;
-    var num2;
-    var resultado;
+    let num1;
+    let num2;
+    let resultado;
 
     num1 = parseInt(document.getElementById("numeroUno").value);
     num2 = parseInt(document.getElementById("numeroDos").value);
@@ -36,9 +36,9 @@ function restar() {
 }
 
 function multiplicar() {
-    var num1;
-    var num2;
-    var resultado;
+    let num1;
+    let num2;
+    let resultado;
 
     num1 = parseInt(document.getElementById("numeroUno").value);
     num2 = parseInt(document.getElementById("numeroDos").value);
@@ -49,9 +49,9 @@ function multiplicar() {
 }
 
 function dividir() {
-    var num1;
-    var num2;
-    var resultado;
+    let num1;
+    let num2;
+    let resultado;
 
     num1 = parseInt(document.getElementById("numeroUno").value);
     num2 = parseInt(document.getElementById("numeroDos").value);
@@ -60,4 +60,6 @@ function dividir() {
 
     alert("la division es " + resultado);
 }
+
+//falta una validacion, pero se ve mas adelante 14/07
 
